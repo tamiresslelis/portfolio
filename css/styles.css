@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900&display=swap');
 html, body {
     margin: 0;
     padding: 0;
@@ -7,12 +9,13 @@ html, body {
 
 body {
     background-color: #ffffff;
-    font-family: 'Noto Serif', serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Catamaran', sans-serif;
 }
 
-.navigation {
-    background-color: black;
-    color: #ffff;
+header {
+    background-color: white;
+    color: black;
     height: 50px;
 }
 
@@ -35,6 +38,20 @@ body {
 
 .navigation li:hover {
     color: #6831CB;
+}
+
+.navigation ul#menu-mobile {
+    display: none;
+}
+
+.navigation div#menu-btn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    top: 20px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
 }
 
 .capa {
@@ -64,7 +81,7 @@ body {
 }
 
 .profile-pic {
-    width: 40%;
+    width: 30%;
     text-align: center;
 }
 
@@ -76,12 +93,14 @@ body {
 
 .profile-title {
     vertical-align: top;
-    width: 60%;
+    width: 70%;
 }
 
 .profile-title h1 {
     font-size: 48px;
     margin-top: 200px;
+    font-weight: 500;
+    line-height: 48px;
 }
 
 .profile-title h2 {
@@ -90,12 +109,23 @@ body {
 
 /* Estilos aplicados a larguras maior que 320 pixels até 767 pixels */
 
-@media screen  and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .capa div {
         display: block;
         height: 450px;
     }
     .profile-title h1 {
         font-size: 42px;
+    }
+
+    .profile-pic {
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile-pic img {
+        width: 300px;
+        border-radius: 300px;
+        margin-top: 100px;
     }
 }
