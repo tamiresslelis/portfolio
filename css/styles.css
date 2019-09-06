@@ -109,7 +109,19 @@ header {
 
 /* Estilos aplicados a larguras maior que 320 pixels até 767 pixels */
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+    .navigation ul {
+        position: absolute;
+        left: 0; top: 0;
+        width: 100%;
+        height: 50px;
+    }
+
+    .navigation ul#menu-desktop {
+        display: none;
+    }
+    
     .capa div {
         display: block;
         height: 450px;
