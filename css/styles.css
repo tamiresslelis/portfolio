@@ -13,13 +13,15 @@ body {
     font-family: 'Catamaran', sans-serif;
 }
 
-header {
+nav {
     background-color: white;
+    position: fixed;
+    width: 100%;
     color: black;
     height: 50px;
 }
 
-.navigation ul {
+nav ul#menu-desktop {
     margin-top: 0;
     list-style: none;
     padding-left: 0;
@@ -27,7 +29,7 @@ header {
     height: 50px;
 }
 
-.navigation li {
+nav ul#menu-desktop li {
     display: inline-block;
     padding-left: 30px;
     padding-right: 30px;
@@ -36,48 +38,46 @@ header {
     cursor: pointer;
 }
 
-.navigation li:hover {
-    color: #6831CB;
+nav ul#menu-desktop li:hover {
+    color: #7D3041;
+    text-decoration: none;
+    /* border-bottom: 2px solid #7D3041; */
 }
 
-.navigation ul#menu-mobile {
+nav ul#menu-desktop li a {
+    color: black;
+    text-decoration: none;
+    /* border-bottom: 2px solid #7D3041; */
+}
+
+nav ul#menu-desktop li a:hover {
+    color: #7D3041;
+    text-decoration: none;
+    /* border-bottom: 2px solid #7D3041; */
+}
+
+nav ul#menu-desktop li a:active {
+    color: #7D3041;
+    text-decoration: none;
+    /* border-bottom: 2px solid #7D3041; */
+}
+
+nav ul#menu-mobile, nav div#menu-btn {
     display: none;
 }
 
-.navigation div#menu-btn {
-    position: absolute;
-    cursor: pointer;
-    display: block;
-    top: 20px;
-    right: 20px;
-    height: 30px;
-    width: 30px;
-}
-
-.capa {
+#home {
     color: black;
 }
 
-.capa span {
+#home span {
     color: #6831CB;
     display: block;
 }
 
-.capa div {
+#home div {
     display: inline-block;
-    height: 650px;
-}
-
-.border-image {
-    /* height: 190px; background-image: url(https://i.stack.imgur.com/atUuf.png); */
-    /* width: 300px;
-    height: 300px !important;
-    border-radius: 300px;
-    vertical-align: top; */
-    /* width: 200px;
-    border-radius: 200px;
-    margin-top: 100px; */
-    /* background: linear-gradient(to right, red, purple); */
+    /* height: 650px; */
 }
 
 .profile-pic {
@@ -92,8 +92,10 @@ header {
 }
 
 .profile-title {
+    padding: 0 20px;
+    margin-top: 20px;
     vertical-align: top;
-    width: 70%;
+    width: 60%;
 }
 
 .profile-title h1 {
@@ -107,37 +109,74 @@ header {
     font-size: 39px;
 }
 
-/* Estilos aplicados a larguras maior que 320 pixels até 767 pixels */
+/* Estilos aplicados a larguras maior que 300 pixels até 767 pixels */
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
-
-    .navigation ul {
-        position: absolute;
-        left: 0; top: 0;
-        width: 100%;
-        height: 50px;
+    header {
+        height: 56px;
     }
-
-    .navigation ul#menu-desktop {
+    nav ul {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 56px;
+    }
+    nav div#menu-btn {
+        position: absolute;
+        cursor: pointer;
+        display: block;
+        top: 13px;
+        right: 20px;
+        height: 30px;
+        width: 30px;
+    }
+    nav ul#menu-desktop {
         display: none;
     }
-    
-    .capa div {
+    nav ul#menu-mobile {
+        color: black;
+       
+        /* display: block; */
+        margin-top: 56px;
+        padding: 0;
+    }
+    nav ul#menu-mobile li {
+        background-color: white;
+        font-size: 14px;
         display: block;
-        height: 450px;
+        width: 100%;
+        list-style-type: none;
+    }
+    nav ul#menu-mobile li a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        padding: 20px 0;
+    }
+    nav ul#menu-mobile li a:hover {
+        color: #7D3041;
+    }
+    #home {
+        display: block;
+        height: auto;
+    }
+    .profile-title {
+        width: 100%;
+        padding: 0 20px;
     }
     .profile-title h1 {
+        margin-top: 0;
         font-size: 42px;
     }
-
     .profile-pic {
         width: 100%;
         text-align: center;
     }
-
     .profile-pic img {
-        width: 300px;
-        border-radius: 300px;
+        width: 200px;
+        border-radius: 200px;
         margin-top: 100px;
     }
 }
