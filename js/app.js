@@ -1,4 +1,4 @@
-// Função para o header ter uma cor diferente quando scrolla 
+// Fuction to header changed the background color
 var nav = document.querySelector('nav'); // Identify target
 
 window.addEventListener('scroll', function (event) { // To listen for event
@@ -15,7 +15,7 @@ window.addEventListener('scroll', function (event) { // To listen for event
 });
 
 
-// Função para abrir o menu device mobile
+// Function to open menu hamburguer
 document.getElementById('menu-btn').addEventListener('click', function (e) {
     
     // variable for affected menu
