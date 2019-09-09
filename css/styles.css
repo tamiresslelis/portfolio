@@ -68,6 +68,7 @@ nav ul#menu-mobile, nav div#menu-btn {
 
 #home {
     color: black;
+    margin 0 10px;
 }
 
 #home span {
@@ -92,7 +93,6 @@ nav ul#menu-mobile, nav div#menu-btn {
 }
 
 .profile-title {
-    padding: 0 20px;
     margin-top: 20px;
     vertical-align: top;
     width: 60%;
