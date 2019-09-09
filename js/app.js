@@ -1,5 +1,5 @@
-// Fuction to header changed the background color
-var nav = document.querySelector('nav'); // Identify target
+// Function to header changed the background color
+/*var nav = document.querySelector('nav'); // Identify target
 
 window.addEventListener('scroll', function (event) { // To listen for event
     event.preventDefault();
@@ -12,7 +12,7 @@ window.addEventListener('scroll', function (event) { // To listen for event
         nav.style.borderBottom = "2px solid black";
 
     }
-});
+});*/
 
 
 // Function to open menu hamburguer
