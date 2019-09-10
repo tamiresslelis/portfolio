@@ -69,6 +69,9 @@ nav ul#menu-mobile, nav div#menu-btn {
 #home {
     color: black;
     margin 0 10px;
+    display: table;
+    height: 100vh;
+    width: 100%;
 }
 
 #home span {
@@ -98,15 +101,16 @@ nav ul#menu-mobile, nav div#menu-btn {
     width: 60%;
 }
 
-.profile-title h1 {
-    font-size: 48px;
-    margin-top: 200px;
-    font-weight: 500;
-    line-height: 48px;
+div .profile-pic .profile-title {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .profile-title h2 {
     font-size: 39px;
+    margin-top: 200px;
+    font-weight: 500;
+    line-height: 48px;
 }
 
 /* Estilos aplicados a larguras maior que 300 pixels até 767 pixels */
@@ -136,9 +140,7 @@ nav ul#menu-mobile, nav div#menu-btn {
     }
     nav ul#menu-mobile {
         color: black;
-       
-        /* display: block; */
-        margin-top: 56px;
+        margin-top: 50px;
         padding: 0;
     }
     nav ul#menu-mobile li {
@@ -166,9 +168,9 @@ nav ul#menu-mobile, nav div#menu-btn {
     .profile-title {
         width: 100%;
     }
-    .profile-title h1 {
+    .profile-title h2 {
         margin-top: 0;
-        font-size: 42px;
+        font-size: 34px;
     }
     .profile-pic {
         width: 100%;
