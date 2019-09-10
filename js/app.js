@@ -1,5 +1,5 @@
-// Function to header changed the background color
-/*var nav = document.querySelector('nav'); // Identify target
+// Função para o header ter uma cor diferente quando scrolla 
+var nav = document.querySelector('nav'); // Identify target
 
 window.addEventListener('scroll', function (event) { // To listen for event
     event.preventDefault();
@@ -12,10 +12,9 @@ window.addEventListener('scroll', function (event) { // To listen for event
         nav.style.borderBottom = "2px solid black";
 
     }
-});*/
+});
 
-
-// Function to open menu hamburguer
+// Função para abrir o menu device mobile
 document.getElementById('menu-btn').addEventListener('click', function (e) {
     
     // variable for affected menu
@@ -26,5 +25,4 @@ document.getElementById('menu-btn').addEventListener('click', function (e) {
     } else {
        myMenu.style.display = 'block';
     }
-    
 });
