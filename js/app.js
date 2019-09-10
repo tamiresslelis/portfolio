@@ -14,7 +14,6 @@ window.addEventListener('scroll', function (event) { // To listen for event
     }
 });
 
-
 // Função para abrir o menu device mobile
 document.getElementById('menu-btn').addEventListener('click', function (e) {
     
@@ -26,5 +25,4 @@ document.getElementById('menu-btn').addEventListener('click', function (e) {
     } else {
        myMenu.style.display = 'block';
     }
-    
 });

@@ -68,6 +68,36 @@ nav ul#menu-mobile, nav div#menu-btn {
 
 #home {
     color: black;
+    margin 0 10px;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+
+nav ul#menu-desktop li a {
+    color: black;
+    text-decoration: none;
+    /* border-bottom: 2px solid #7D3041; */
+}
+
+nav ul#menu-desktop li a:hover {
+    color: #7D3041;
+    text-decoration: none;
+    /* border-bottom: 2px solid #7D3041; */
+}
+
+nav ul#menu-desktop li a:active {
+    color: #7D3041;
+    text-decoration: none;
+    /* border-bottom: 2px solid #7D3041; */
+}
+
+nav ul#menu-mobile, nav div#menu-btn {
+    display: none;
+}
+
+#home {
+    color: black;
 }
 
 #home span {
@@ -98,6 +128,11 @@ nav ul#menu-mobile, nav div#menu-btn {
     width: 60%;
 }
 
+div .profile-pic .profile-title {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .profile-title h1 {
     font-size: 48px;
     margin-top: 200px;
@@ -107,6 +142,9 @@ nav ul#menu-mobile, nav div#menu-btn {
 
 .profile-title h2 {
     font-size: 39px;
+    margin-top: 200px;
+    font-weight: 500;
+    line-height: 48px;
 }
 
 /* Estilos aplicados a larguras maior que 300 pixels até 767 pixels */
@@ -136,14 +174,46 @@ nav ul#menu-mobile, nav div#menu-btn {
     }
     nav ul#menu-mobile {
         color: black;
-       
-        /* display: block; */
-        margin-top: 56px;
+        margin-top: 50px;
         padding: 0;
     }
     nav ul#menu-mobile li {
         background-color: white;
         font-size: 14px;
+        display: block;
+        width: 100%;
+        list-style-type: none;
+    }
+    nav ul#menu-mobile li a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        padding: 20px 0;
+    }
+    nav ul#menu-mobile li a:hover {
+        color: #7D3041;
+    }
+    #home {
+        display: block;
+        height: auto;
+        padding: 0 10px;
+    }
+    .profile-title {
+        width: 100%;
+    }
+    .profile-title h2 {
+        margin-top: 0;
+        font-size: 34px;
+    }
+    .profile-pic {
+        width: 100%;
+        text-align: center;
+    }
+    .profile-pic img {
+        width: 200px;
+        border-radius: 200px;
+        margin-top: 100px;
         display: block;
         width: 100%;
         list-style-type: none;
