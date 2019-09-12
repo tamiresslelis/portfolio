@@ -14,6 +14,33 @@ h4 {
     font-size: 25px;
 }
 
+h5 {
+    font-size: 20px;
+}
+
+ol li {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 8px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.interview {
+    color: #7D3041;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
 /* Estilos aplicados a larguras maior que 300 pixels até 767 pixels */
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
@@ -28,5 +55,14 @@ h4 {
     }
     h4 {
         font-size: 21px;
+    }
+    h5 {
+        font-size: 17px;
+    }
+    ol li {
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
     }
 }
