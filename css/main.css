@@ -39,7 +39,9 @@ a {
     font-weight: 700;
 }
 
-
+.explicationInterview {
+    margin-bottom: 30px;
+}
 
 /* Estilos aplicados a larguras maior que 300 pixels até 767 pixels */
 
@@ -60,9 +62,12 @@ a {
         font-size: 17px;
     }
     ol li {
-        font-size: 12px;
+        font-size: 14px;
     }
     p {
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .explicationInterview {
+        margin-bottom: 30px;
     }
 }
