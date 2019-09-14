@@ -118,7 +118,7 @@ nav ul#menu-mobile, nav div#menu-btn {
 }
 
 .profile-title {
-    padding: 0 20px;
+    padding: 0px 40px 0px 20px;
     margin-top: 20px;
     vertical-align: top;
     width: 60%;
@@ -181,13 +181,17 @@ ol {
 }
 
 .script img {
-    width: 40%!important;
+    width: 37%!important;
     height: 400px !important;
 }
 
 .imagem img {
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
+}
+
+.one {
+    height: 400px !important;
 }
 
 .responsive {
@@ -216,6 +220,10 @@ figcaption {
     vertical-align: middle;
 }
 
+.linkLinkedIn {
+    color: #00FFFF;
+}
+
 .talk {
     font-weight: 300;
     vertical-align: middle;
@@ -225,6 +233,15 @@ figcaption {
 
 #interview p {
     padding-bottom: 30px;
+}
+
+.focusgroup img {
+    height: 320px;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
 }
 
 /* Estilos aplicados a larguras maior que 300 pixels até 767 pixels */
@@ -347,5 +364,4 @@ figcaption {
         padding: 0 20px;
         line-height: 1.6;
     }
-   
 }
