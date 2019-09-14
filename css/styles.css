@@ -185,6 +185,10 @@ ol {
     height: 400px !important;
 }
 
+.photo {
+    padding-left: 100px;
+}
+
 .imagem img {
     width: 600px;
     height: 350px;
@@ -359,6 +363,9 @@ footer p {
     .script img {
         width: 100% !important;
         height: 450px !important;
+    }
+    .photo {
+        padding-left: 20px;
     }
     p {
         padding: 0 20px;
