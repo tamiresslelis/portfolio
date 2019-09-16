@@ -43,6 +43,68 @@ a {
     margin-bottom: 30px;
 }
 
+/* .button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+} */
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #00b3b3;
+    border-radius: 45px;
+    background: #00ffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00ffff), to(#00b3b3));
+    background: -moz-linear-gradient(top, #00ffff, #00b3b3);
+    background: linear-gradient(to bottom, #00ffff, #00b3b3);
+    font: normal normal bold 20px arial;
+    color: #000000;
+    text-decoration: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover, .button:focus {
+    border: 1px solid #00ffff;
+    background: #00ffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00ffff), to(#00d7d7));
+    background: -moz-linear-gradient(top, #00ffff, #00d7d7);
+    background: linear-gradient(to bottom, #00ffff, #00d7d7);
+    color: #000000;
+    text-decoration: none;
+    box-shadow: 0px 15px 20px #04A7A7;
+    transform: translateY(-7px);
+}
+
+.button:active {
+    background: #00b3b3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00b3b3), to(#00b3b3));
+    background: -moz-linear-gradient(top, #00b3b3, #00b3b3);
+    background: linear-gradient(to bottom, #00b3b3, #00b3b3);
+}
+
 /* Estilos aplicados a larguras maior que 300 pixels até 767 pixels */
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {

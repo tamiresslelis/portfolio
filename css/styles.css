@@ -146,7 +146,8 @@ nav ul#menu-mobile, nav div#menu-btn {
 
 .name {
     display: inline-block;
-    color: #7D3041;
+    color: #ff006f;
+    text-decoration-line: underline;
 }
 
 #cases {
@@ -160,6 +161,11 @@ h3 {
     color: #7D3041;
     padding: 55px 100px 20px 100px;
     margin-bottom: 0;
+}
+
+.enfase {
+    color: #0002F2;
+    text-decoration-line: underline;
 }
 
 h4 {
@@ -241,6 +247,30 @@ figcaption {
 
 .focusgroup img {
     height: 320px;
+}
+
+.buttons {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.figma img {
+    width: 700px;
+    height: 300px;
+}
+
+.prototype img {
+    width: 50%;
+    height: 350px;
+}
+
+.marvel {
+    margin-left: 20px;
+}
+
+.conclusion {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 footer p {
@@ -336,7 +366,9 @@ footer p {
     } */
     .name {
         display: inline-block;
-        color: #7D3041;
+        font-weight: 600;
+        color: #ff006f;
+        text-decoration-line: underline;
     }
     h3 {
         padding: 56px 20px 20px 20px;
@@ -370,5 +402,14 @@ footer p {
     p {
         padding: 0 20px;
         line-height: 1.6;
+    }
+    .buttons {
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .button {
+        margin-left: 0px;
+        margin-bottom: 20px;
     }
 }
