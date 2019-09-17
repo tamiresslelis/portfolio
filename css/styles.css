@@ -210,7 +210,10 @@ ol {
 }
 
 p {
-    padding: 0 100px;
+    padding-top: 0;
+    padding-right: 300px;
+    padding-bottom: 0;
+    padding-left: 100px;
 }
 
 figcaption {
@@ -274,6 +277,7 @@ figcaption {
 }
 
 footer p {
+    padding: 0 100px;
     font-size: 12px;
     text-align: center;
 }
