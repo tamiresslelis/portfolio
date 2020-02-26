@@ -291,6 +291,10 @@ p.lead {
   margin: 0;
 }
 
+.navbar .nav ul {
+  display: block;
+}
+
 .navbar .nav li {
   display: inline;
 }
@@ -351,10 +355,6 @@ p.lead {
 
 .hero h2 .highlight {
   color: #d33183;
-}
-
-.work {
-
 }
 
 .work .work-case {
@@ -455,21 +455,6 @@ p.lead {
   top: 74px;
   z-index: 2;
   transition: all 0.2s ease-in-out;
-}
-
-.work-panel-viaesca {
-  background-image: url('../images/viaesca_thumb.jpg');
-  background-size: 100%;
-}
-
-.work-panel-happysignals {
-  background-image: url('../images/happysignals_thumb.jpg');
-  background-size: 100%;
-}
-
-.work-panel-whim {
-  background-image: url('../images/whim_thumb.jpg');
-  background-size: 100%;
 }
 
 .work-panel .view-more {
@@ -791,5 +776,11 @@ html.is-animating .transition-fade {
 
   .footer .social-icons {
     float: none;
+  }
+}
+
+@media (min-width: 551px) {
+  .navbar .nav {
+    display: block !important;
   }
 }
