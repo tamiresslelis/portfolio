@@ -1,5 +1,5 @@
 const typing = () => {
-    const words = ['Hello! I\'m Tamires Lelis'];
+    const words = ['Hello, my name is Tamires Lelis'];
     const skip_delay = 5;
     const speed = 150;
     const size = words.length;
