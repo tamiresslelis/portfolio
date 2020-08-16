@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
 
 html, 
 body {
@@ -136,9 +136,6 @@ body {
   
   .social-icons__container {
     display: flex;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(0deg, rgba(153,6,190,1) 0%, rgba(16,110,219,1) 100%);
   }
   
   .social-icons li {
