@@ -4,6 +4,7 @@ html,
 body {
     height: 100%;
     font-family: 'Rubik', sans-serif;
+    font-weight: 300;
 }
 
 .home {
@@ -26,6 +27,7 @@ body {
 .title h1 {
   font-size: 3.3em;
   height: 1em;
+  font-weight: 300;
 }
 
 .presentation {
