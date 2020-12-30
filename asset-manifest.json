@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.0c7dfee1.chunk.js",
-    "main.js.map": "/static/js/main.0c7dfee1.chunk.js.map",
+    "main.css": "/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/static/js/main.cd388fe9.chunk.js",
+    "main.js.map": "/static/js/main.cd388fe9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fbc9068.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fbc9068.js.map",
     "static/js/2.883a2193.chunk.js": "/static/js/2.883a2193.chunk.js",
@@ -10,20 +10,20 @@
     "static/js/3.6b0bbdf8.chunk.js": "/static/js/3.6b0bbdf8.chunk.js",
     "static/js/3.6b0bbdf8.chunk.js.map": "/static/js/3.6b0bbdf8.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/css/main.2ae47eeb.chunk.css.map": "/static/css/main.2ae47eeb.chunk.css.map",
     "static/js/2.883a2193.chunk.js.LICENSE.txt": "/static/js/2.883a2193.chunk.js.LICENSE.txt",
-    "static/media/Behance.aa360ad3.svg": "/static/media/Behance.aa360ad3.svg",
-    "static/media/Dribbble.1832c265.svg": "/static/media/Dribbble.1832c265.svg",
-    "static/media/Linkedin.d4b54739.svg": "/static/media/Linkedin.d4b54739.svg",
-    "static/media/Medium.045c9549.svg": "/static/media/Medium.045c9549.svg",
+    "static/media/Behance.8410e8c8.svg": "/static/media/Behance.8410e8c8.svg",
+    "static/media/Dribbble.cd9b1fb5.svg": "/static/media/Dribbble.cd9b1fb5.svg",
+    "static/media/Linkedin.67acf984.svg": "/static/media/Linkedin.67acf984.svg",
+    "static/media/Medium.e8d07221.svg": "/static/media/Medium.e8d07221.svg",
     "static/media/foto-perfil.a188756f.png": "/static/media/foto-perfil.a188756f.png",
-    "static/media/modalPicture.27fd0fb7.svg": "/static/media/modalPicture.27fd0fb7.svg",
-    "static/media/tamires-logo.c1ee1f95.svg": "/static/media/tamires-logo.c1ee1f95.svg"
+    "static/media/modalPicture.97cc4102.svg": "/static/media/modalPicture.97cc4102.svg",
+    "static/media/tamires-logo.b16d1abc.svg": "/static/media/tamires-logo.b16d1abc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2fbc9068.js",
     "static/js/2.883a2193.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.0c7dfee1.chunk.js"
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.cd388fe9.chunk.js"
   ]
 }

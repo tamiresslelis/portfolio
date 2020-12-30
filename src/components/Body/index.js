@@ -18,7 +18,7 @@ const Body = () => {
         Designer
         </H3>
         <P>Human behavior has always fascinated me and that is the reason</P>
-        <P>I enjoy creating user-centric,delightful systems and apps.</P>
+        <P>I enjoy creating user-centric, delightful systems and apps.</P>
         <List>
           <li>
             <a href="https://www.linkedin.com/in/tamireslelis" target="_blank" rel="noopener noreferrer">

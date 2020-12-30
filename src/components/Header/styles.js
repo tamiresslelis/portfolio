@@ -8,7 +8,6 @@ export const Logo = styled.img`
 
 export const Head = styled.header`
   height: ${TLTokens.spacingStackXxl};
-  box-shadow: ${TLTokens.shadowLevel2};
   padding: ${TLTokens.spacingStackQuarck} 112px;
   display: flex;
   justify-content: space-between;
@@ -22,7 +21,7 @@ export const Head = styled.header`
 export const Contact = styled.a`
   font-family: ${TLTokens.fontFamily02};
   font-weight: ${TLTokens.fontWeightBold};
-  font-size: ${TLTokens.fontSizeXs};
+  font-size: ${TLTokens.fontSizeSm};
   align-self: center;
   text-decoration: none;
   color: ${TLTokens.colorNeutralDarkest};

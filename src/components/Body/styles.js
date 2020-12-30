@@ -47,11 +47,7 @@ export const P = styled.p`
   line-height: ${TLTokens.lineHeightDistant};
   max-width: 488px;
   margin: 0;
-  
-  &:first-of-type {
-    padding-bottom: 8px;
-  }
-  
+    
   @media(max-width: 800px) {
     padding-right: ${TLTokens.spacingInlineXxxs};
   }

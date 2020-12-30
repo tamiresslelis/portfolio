@@ -8,10 +8,10 @@ import Modal from "./components/Modal";
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Modal/>
-      <Body/>
-      <Footer/>
+      <Header />
+      <Modal />
+      <Body />
+      <Footer />
     </div>
   );
 };

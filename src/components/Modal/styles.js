@@ -30,7 +30,6 @@ export const ModalWrapper = styled.div`
   left: 0;
   z-index: 1050;
   width: 100%;
-  height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   outline: 0;

@@ -34,7 +34,7 @@ export const Data = styled.p`
   flex-basis: 100%;
   text-align: center;
   font-family: ${TLTokens.fontFamily02};
-  font-weight: ${TLTokens.fontWeightBold};
+  font-weight: ${TLTokens.fontWeightLight};
   font-size: ${TLTokens.fontSizeXxxs};
   color: ${TLTokens.colorNeutralLightest};
   padding: ${TLTokens.spacingStackXs} 0 ${TLTokens.spacingStackXxs} 0;

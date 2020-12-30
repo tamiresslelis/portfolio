@@ -13,7 +13,7 @@ const Footer = () => {
         </SectionProblemTogether>
 
       <SkillList>
-        <li><strong>I can help you with...</strong></li>
+        <li><strong>How I can help you?</strong></li>
         <li>User Research</li>
         <li>Prototype</li>
         <li>Wireframe</li>
