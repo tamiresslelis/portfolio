@@ -21,10 +21,26 @@ const Modal = () => {
                     <p style={{ paddingTop: '40px' }}>We are working to give you the best experience here..</p>
                     <p style={{ paddingBottom: '24px' }}>But you can see same works in this platforms:</p>
                     <ListModal>
-                        <li><img src={Linkedin} alt="linkedin" /></li>
-                        <li><img src={Dribbble} alt="dribbble" /></li>
-                        <li><img src={Behance} alt="behance" /></li>
-                        <li><img src={Medium} alt="medium" /></li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/tamireslelis" target="_blank" rel="noopener noreferrer">
+                                <img src={Linkedin} alt="linkedin" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://dribbble.com/tamireslelis" target="_blank" rel="noopener noreferrer">
+                                <img src={Dribbble} alt="dribbble" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.behance.net/tamireslelis/" target="_blank" rel="noopener noreferrer">
+                                <img src={Behance} alt="behance" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@tamireslelis" target="_blank" rel="noopener noreferrer">
+                                <img src={Medium} alt="medium" />
+                            </a>
+                        </li>
                     </ListModal>
                 </ModalContainer>
             </ModalWrapper>

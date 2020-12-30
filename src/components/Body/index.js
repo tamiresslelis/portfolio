@@ -20,10 +20,26 @@ const Body = () => {
         <P>Human behavior has always fascinated me and that is the reason</P>
         <P>I enjoy creating user-centric,delightful systems and apps.</P>
         <List>
-          <li><img src={Linkedin} alt="linkedin" /></li>
-          <li><img src={Dribbble} alt="dribbble" /></li>
-          <li><img src={Behance} alt="behance" /></li>
-          <li><img src={Medium} alt="medium" /></li>
+          <li>
+            <a href="https://www.linkedin.com/in/tamireslelis" target="_blank" rel="noopener noreferrer">
+              <img src={Linkedin} alt="linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/tamireslelis" target="_blank" rel="noopener noreferrer">
+              <img src={Dribbble} alt="dribbble" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.behance.net/tamireslelis/" target="_blank" rel="noopener noreferrer">
+              <img src={Behance} alt="behance" />
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@tamireslelis" target="_blank" rel="noopener noreferrer">
+              <img src={Medium} alt="medium" />
+            </a>
+          </li>
         </List>
       </div>
       <div>
