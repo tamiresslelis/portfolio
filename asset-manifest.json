@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/static/js/main.a5371596.chunk.js",
+    "main.js.map": "/static/js/main.a5371596.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fbc9068.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fbc9068.js.map",
+    "static/js/2.883a2193.chunk.js": "/static/js/2.883a2193.chunk.js",
+    "static/js/2.883a2193.chunk.js.map": "/static/js/2.883a2193.chunk.js.map",
+    "static/js/3.6b0bbdf8.chunk.js": "/static/js/3.6b0bbdf8.chunk.js",
+    "static/js/3.6b0bbdf8.chunk.js.map": "/static/js/3.6b0bbdf8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.883a2193.chunk.js.LICENSE.txt": "/static/js/2.883a2193.chunk.js.LICENSE.txt",
+    "static/media/Behance.aa360ad3.svg": "/static/media/Behance.aa360ad3.svg",
+    "static/media/Dribbble.1832c265.svg": "/static/media/Dribbble.1832c265.svg",
+    "static/media/Linkedin.d4b54739.svg": "/static/media/Linkedin.d4b54739.svg",
+    "static/media/Medium.045c9549.svg": "/static/media/Medium.045c9549.svg",
+    "static/media/foto-perfil.a188756f.png": "/static/media/foto-perfil.a188756f.png",
+    "static/media/modalPicture.27fd0fb7.svg": "/static/media/modalPicture.27fd0fb7.svg",
+    "static/media/tamires-logo.c1ee1f95.svg": "/static/media/tamires-logo.c1ee1f95.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fbc9068.js",
+    "static/js/2.883a2193.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.a5371596.chunk.js"
+  ]
+}
