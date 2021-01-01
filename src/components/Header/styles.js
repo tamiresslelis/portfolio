@@ -37,3 +37,23 @@ export const Work = styled.a`
   color: ${TLTokens.colorNeutralDarkest};
 `;
 
+
+export const Menu = styled.nav`
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    cursor: pointer;
+    width: 176px;
+    height: 24px;
+    text-align: center;
+    
+    :first-of-type {
+      padding-right: 8px;
+    }
+  }
+`;
+
+
+

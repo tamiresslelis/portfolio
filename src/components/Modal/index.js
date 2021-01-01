@@ -1,4 +1,4 @@
-import React, { useState }  from 'react';
+import React  from 'react';
 
 import { ModalOverlay, ModalWrapper, ModalContainer, Image, ListModal, CloseButton } from './styles'
 
