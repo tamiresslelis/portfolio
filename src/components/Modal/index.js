@@ -1,25 +1,29 @@
-import React from 'react';
+import React, { useState }  from 'react';
 
-import { ModalOverlay, ModalWrapper, ModalContainer, Image, ListModal } from './styles'
+import { ModalOverlay, ModalWrapper, ModalContainer, Image, ListModal, CloseButton } from './styles'
 
 import Linkedin from '../../img/Linkedin.svg';
 import Dribbble from '../../img/Dribbble.svg';
+import CloseOutline from '../../img/close-outline.svg';
 import Behance from '../../img/Behance.svg';
 import Medium from '../../img/Medium.svg';
 import ModalImg from '../../img/modalPicture.svg';
 
-const Modal = () => {
-    return (
-        <div>
+const Modal = ({ isVisible , showModal }) => {
+      return (
+        <div style={{ display: isVisible ? 'block' : 'none' }}>
             <ModalOverlay />
             <ModalWrapper>
                 <ModalContainer>
+                    <CloseButton onClick={() => showModal(false)}>
+                    <img src={CloseOutline} alt="close modal" />
+                    </CloseButton>
                     <h1>
                         Waiting...
                     </h1>
                     <Image src={ModalImg} />
-                    <p style={{ paddingTop: '40px' }}>We are working to give you the best experience here..</p>
-                    <p style={{ paddingBottom: '24px' }}>But you can see same works in this platforms:</p>
+                    <p style={{ paddingTop: '40px' }}>We are working to give you the best experience here.</p>
+                    <p style={{ paddingBottom: '24px' }}>But you can see same works in this social networks:</p>
                     <ListModal>
                         <li>
                             <a href="https://www.linkedin.com/in/tamireslelis" target="_blank" rel="noopener noreferrer">

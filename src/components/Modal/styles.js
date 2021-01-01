@@ -37,7 +37,7 @@ export const ModalWrapper = styled.div`
 `
 
 export const Image = styled.img`
-  z-index: 99999;
+  z-index: 88888;
   position: absolute;
   top: 5%;
   right: 5%;
@@ -84,4 +84,15 @@ export const ListModal = styled(List)`
   @media(max-width: 800px) {
     padding: 12px 0 0 0;
   }
+`;
+
+
+export const CloseButton = styled.div`
+  cursor: pointer;
+  z-index: 99999;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -24px;
+  margin-top: -24px;
+
 `;

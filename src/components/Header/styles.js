@@ -26,3 +26,14 @@ export const Contact = styled.a`
   text-decoration: none;
   color: ${TLTokens.colorNeutralDarkest};
 `;
+
+
+export const Work = styled.a`
+  font-family: ${TLTokens.fontFamily02};
+  font-weight: ${TLTokens.fontWeightBold};
+  font-size: ${TLTokens.fontSizeSm};
+  align-self: center;
+  text-decoration: none;
+  color: ${TLTokens.colorNeutralDarkest};
+`;
+
