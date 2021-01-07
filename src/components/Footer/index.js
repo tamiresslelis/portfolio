@@ -1,6 +1,12 @@
 import React from "react";
-import { Container, SectionProblemTogether, Data, SkillList, Button } from './styles.js';
 
+import {
+  Container,
+  SectionProblemTogether,
+  Data,
+  SkillList,
+  Button
+} from './styles.js';
 
 const Footer = () => {
   return (
@@ -10,8 +16,7 @@ const Footer = () => {
         solve
         a problem
         together
-        </SectionProblemTogether>
-
+      </SectionProblemTogether>
       <SkillList>
         <li><strong>How I can help you?</strong></li>
         <li>User Research</li>

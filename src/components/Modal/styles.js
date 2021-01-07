@@ -94,5 +94,4 @@ export const CloseButton = styled.div`
   justify-content: flex-end;
   margin-right: -24px;
   margin-top: -24px;
-
 `;

@@ -1,51 +1,46 @@
 import React from "react";
 
-import Linkedin from '../../img/Linkedin.svg';
-import Dribbble from '../../img/Dribbble.svg';
-import Behance from '../../img/Behance.svg';
-import Medium from '../../img/Medium.svg';
-import photo from '../../img/foto-perfil.png';
+import Linkedin from 'images/Linkedin.svg';
+import Dribbble from 'images/Dribbble.svg';
+import Behance from 'images/Behance.svg';
+import Medium from 'images/Medium.svg';
+import foto from 'images/foto.png';
 
 import { Section, H5, H3, P, Img, List } from './styles.js';
+
+import Link from "components/Link";
 
 const Body = () => {
   return (
     <Section>
       <div>
         <H5>Hi, I'm Tamires Lelis</H5>
-        <H3>User
-        Experience
-        Designer
+        <H3>
+          User
+          Experience
+          Designer
         </H3>
         <P>Human behavior has always fascinated me and that is the reason</P>
         <P>I enjoy creating user-centric, delightful systems and apps.</P>
         <List>
           <li>
-            <a href="https://www.linkedin.com/in/tamireslelis" target="_blank" rel="noopener noreferrer">
-              <img src={Linkedin} alt="linkedin" />
-            </a>
+            <Link href="https://www.linkedin.com/in/tamireslelis" src={Linkedin} alt="linkedin" />
           </li>
           <li>
-            <a href="https://dribbble.com/tamireslelis" target="_blank" rel="noopener noreferrer">
-              <img src={Dribbble} alt="dribbble" />
-            </a>
+            <Link href="https://dribbble.com/tamireslelis" src={Dribbble} alt="dribbble" />
           </li>
           <li>
-            <a href="https://www.behance.net/tamireslelis/" target="_blank" rel="noopener noreferrer">
-              <img src={Behance} alt="behance" />
-            </a>
+            <Link href="https://www.behance.net/tamireslelis/" src={Behance} alt="behance" />
           </li>
           <li>
-            <a href="https://medium.com/@tamireslelis" target="_blank" rel="noopener noreferrer">
-              <img src={Medium} alt="medium" />
-            </a>
+            <Link href="https://medium.com/@tamireslelis" src={Medium} alt="medium" />
           </li>
         </List>
       </div>
       <div>
-        <Img src={photo} className="App-logo" alt="It's me here!" />
+        <Img src={foto} className="App-logo" alt="It's me here!" />
       </div>
-    </Section >
+    </Section>
   );
 }
 

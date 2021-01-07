@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
-import logo from '../../img/tamires-logo.svg';
-import Modal from "../Modal";
+import Modal from "components/Modal";
+import logo from 'images/logo.svg';
+
 import { Logo, Head, Contact, Work, Menu } from './styles.js';
 
 const Header = () => {
@@ -16,8 +17,7 @@ const Header = () => {
         <Contact href="https://www.linkedin.com/in/tamireslelis/" alt="this is my linkedin link">Contact</Contact>
         </Menu>
       <Modal isVisible={isVisible} showModal={showModal} />
-
-    </Head >
+    </Head>
   );
 }
 
