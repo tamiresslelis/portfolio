@@ -78,4 +78,5 @@ export const Button = styled.button`
   padding: 12px 16px;
   border-radius: ${TLTokens.borderWidthHeavy};
   margin-top: 8px;
+  cursor: pointer;
 `;

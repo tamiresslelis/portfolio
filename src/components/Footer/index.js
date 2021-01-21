@@ -28,7 +28,7 @@ const Footer = () => {
         <li>Usability Testing</li>
         <li>Design Workshops</li>
         <li>Stakeholders Engagements</li>
-        <li><Button>Talk to me</Button></li>
+        <li><Button onClick={() => window.open('https://www.linkedin.com/in/tamireslelis/', "_blank")}>Talk to me</Button></li>
       </SkillList>
       <Data>Since 2020 - Tamires lelis</Data>
     </Container>
